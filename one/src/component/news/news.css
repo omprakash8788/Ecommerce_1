@@ -1,0 +1,26 @@
+.news-card{
+    display: flex;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.news-card div{
+    height: auto;
+    width: 45%;
+    border: 1px solid black; 
+    margin: auto;
+    border-radius: 10px;
+}
+.nw{
+    text-align: center;
+}
+.news-card div img{
+    width: 50%;
+    margin-left: 120px;
+}
+.news-card div p{
+    font-weight: bold;
+}

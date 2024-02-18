@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background: rgb(3, 68, 96);
+}
+
+.navbar div {
+  width: 48%;
+  text-align: center;
+  padding: 5px;
+}
+
+.logo {
+  margin: 16px;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav p {
+  color: gray;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nav p:hover {
+  background-color: rgb(41, 41, 45);
+  height: auto;
+  width: auto;
+}
